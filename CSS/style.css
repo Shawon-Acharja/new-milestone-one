@@ -169,45 +169,65 @@ hr {
 }
 .main2 {
     width: 100%;
-    height: 500px;
-    background-color:black;
+    height: 550px;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxLWppcmEtMDExNi1rd2FuLTAzXzIuanBn.jpg);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-position: right;*/
 }
+.main2 h2 {
+    text-transform: uppercase;
+    color: black;
+} 
 .main2 p {
-    color: aliceblue;
+    color:black;
 }
 .mainpart3 {
-    width: 24%;
+    width: 22%;
     float: left;
-    margin-right: 10px;
+    margin-right: 12px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
 }
 .mainpart3 img {
     width: 150px;
     transition: 1s;
 }
 .mainpart4 {
-    width: 24%;
+    width: 22%;
     float: left;
-    margin-right: 10px;
+    margin-right: 12px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
 }
 .mainpart4 img {
     width: 150px;
     transition: 1s;
 }
 .mainpart5 {
-    width: 24%;
+    width: 22%;
     float: left;
-    margin-right: 10px;
+    margin-right: 12px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
 }
 .mainpart5 img {
     width: 150px;
     transition: 1s;
 }
 .mainpart6 {
-    width: 24%;
+    width: 22%;
     float: left;
-    margin-right: 10px;
+    margin-right: 12px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
 }
 .mainpart6 img {
     width: 150px;
@@ -223,32 +243,30 @@ hr {
     margin-top: 0px;
 }
 .main2 button {
-    background-color: orangered;
+    background-color: transparent;
     padding: 10px 50px;
     border-radius: 20px;
-    border: 2px solid #ffff;
+    border: 2px solid orangered;
     font-size: 14px;
     margin-top: 10px;
     text-transform: uppercase;
+    letter-spacing: 3px;
     transition: 1s;
 }
 .main2 button a {
     text-decoration: none;
-    color: #cccccc;
+    color: black;
+    font-weight: bold;
 }
 .main2 button:hover {
-    background-color: #cccccc;
+    background-color: orangered;
     border: 2px solid orangered;
     transform: scale(1.2);
-    transform-origin: 10% 50%;
+    transform-origin: 20% 30%;
 }
 .main2 button a:hover {
     color: black;
 }
-.main2 h2 {
-    text-transform: uppercase;
-    color: aqua;
-} 
 .main2 img:hover {
     transform: scale(1.1);
 }
