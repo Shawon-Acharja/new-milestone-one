@@ -317,4 +317,17 @@ hr {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.mainpart7 hr {
+    width: 20%;
+    border-color: black;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.mainpart7 p {
+    width: 40%;
+    margin: auto;
+    text-align: center;
 }
