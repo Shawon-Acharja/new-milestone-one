@@ -313,3 +313,8 @@ hr {
     /*background-position: center;*/
     padding: 10px 0px;
 }
+.mainpart7 h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
