@@ -32,6 +32,14 @@ body {
     color: black;
     font-size: 30px;
     margin-left: 0px;
+    border-color: transparent;
+    box-shadow: 0px 0px 6px #61677A;
+    margin-left: 70px;
+    margin-right: 120px;
+    margin-top: 35px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 5px;
 } 
 .head1 h1:hover {
     color: orangered;
@@ -81,12 +89,12 @@ body {
 }
 .head2 ul button {
     padding: 15px 20px;
-    background-color: darkorange;
+    background-color: olivedrab;
     border-radius: 10px;
     border: none;
     text-transform: uppercase;
     transition: 1s;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .head2 ul button a {
     text-decoration: none;
@@ -100,6 +108,7 @@ body {
     background-color: #cccccc;
     transform: scale(1.1);
     box-shadow: 6px 7px 8px black;
+    font-weight: 900;
 }
 .head2 ul button a:hover {
     color:black ;
@@ -213,57 +222,62 @@ hr {
 }
 .main2 h2 {
     text-transform: uppercase;
-    color: darkgreen;
+    color: rgb(255, 255, 255);
 } 
 .main2 p {
-    color:black;
+    color:#cccccc;
 }
 .mainpart3 {
-    width: 22%;
+    width: 22.5%;
     float: left;
-    margin-right: 12px;
+    margin-right: 20px;
     border: 2px solid orangered;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 0px 20px 0px;
+    background-color: #61677A;
+    margin-left: 20px;
 }
 .mainpart3 img {
     width: 150px;
     transition: 1s;
 }
 .mainpart4 {
-    width: 22%;
+    width: 22.5%;
     float: left;
-    margin-right: 12px;
+    margin-right: 20px;
     border: 2px solid orangered;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 0px 20px 0px;
+    background-color: #61677A;
 }
 .mainpart4 img {
     width: 150px;
     transition: 1s;
 }
 .mainpart5 {
-    width: 22%;
+    width: 22.5%;
     float: left;
-    margin-right: 12px;
+    margin-right: 20px;
     border: 2px solid orangered;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 0px 20px 0px;
+    background-color: #61677A;
 }
 .mainpart5 img {
     width: 150px;
     transition: 1s;
 }
 .mainpart6 {
-    width: 22%;
+    width: 22.5%;
     float: left;
-    margin-right: 12px;
+    margin-right: 20px;
     border: 2px solid orangered;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 0px 20px 0px;
+    background-color: #61677A;
 }
 .mainpart6 img {
-    width: 150px;
+    width: 138px;
     transition: 1s;
 }
 .main2 hr {
@@ -306,22 +320,24 @@ hr {
 .main3 {
     width: 100%;
     height: 600px;
-    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmczEtamlyYS0wMTIzLWt3YW4tMDJfMS5qcGc.jpg);
+    /*background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmczEtamlyYS0wMTIzLWt3YW4tMDJfMS5qcGc.jpg);*/
+    background-color:#61677A;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /*background-position: center;*/
-    padding: 10px 0px;
+    padding: 10px 0px 50px 0px;
 }
 .mainpart7 h2 {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0px;
+    color: #cccccc;
 }
 .mainpart7 hr {
     width: 20%;
-    border-color: black;
+    border-color:#ffff;
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
@@ -338,7 +354,7 @@ hr {
     margin: auto;
 }
 .mainparth2 h2 {
-    color: #808989;
+    color: #cccccc;
     font-size: 50px;
     font-family: 'Borel', cursive;
     letter-spacing: 3px;
@@ -353,7 +369,7 @@ hr {
     background-color: #808989;
 }
 .mainpart-p p {
-    color: black;
+    color:#cccccc;
     text-align: justify;
     font-size: 17px;
     margin-top: 20px;
@@ -375,7 +391,7 @@ hr {
 .mainpart8 button:hover {
     transform: scale(1.1);
     background-color: transparent;
-    border: 2px solid #808989;
+    border: 2px solid #ffff;
 }
 .mainpart8 button a:hover {
     color: orangered;
@@ -387,4 +403,5 @@ hr {
 }
 .mainpart9 img {
     width: 500px;
+    padding-left: 100px;
 }
