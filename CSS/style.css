@@ -305,7 +305,7 @@ hr {
 }
 .main3 {
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmczEtamlyYS0wMTIzLWt3YW4tMDJfMS5qcGc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,10 +324,67 @@ hr {
     border-color: black;
     text-align: center;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .mainpart7 p {
     width: 40%;
     margin: auto;
     text-align: center;
+    margin-top: 0px;
+}
+.mainpart8 {
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+.mainparth2 h2 {
+    color: #808989;
+    font-size: 50px;
+    font-family: 'Borel', cursive;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-bottom: 0px;
+    display:flex;
+}
+.mainparth2 h2 hr {
+    width: 100px;
+    margin-top: 30px;
+    border-color: antiquewhite;
+    background-color: #808989;
+}
+.mainpart-p p {
+    color: black;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.mainpart8 button {
+    padding: 10px 30px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.mainpart8 button a {
+    text-decoration: none;color: #cccccc;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+.mainpart8 button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid #808989;
+}
+.mainpart8 button a:hover {
+    color: orangered;
+}
+.mainpart9 {
+    width: 50%;
+    float: right;
+    margin: auto;
+}
+.mainpart9 img {
+    width: 500px;
 }
