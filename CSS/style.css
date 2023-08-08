@@ -525,3 +525,8 @@ body {
 .mainpart11 button a:hover {
     color: orangered;
 }
+.mainpart12 {
+    width: 50%;
+    float: right;
+    margin: auto;
+}
