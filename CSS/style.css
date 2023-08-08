@@ -143,7 +143,7 @@ body {
     font-size: 40px;
     margin: 50px 0px 0px 0px;
 }
-hr {
+.mainpart hr {
     width: 90%;
     height: 2px;
     border-color: blue;
@@ -234,12 +234,22 @@ hr {
     border: 2px solid orangered;
     border-radius: 10px;
     padding: 10px 0px 20px 0px;
-    background-color: #61677A;
+    background-color:#61677A;
     margin-left: 20px;
 }
 .mainpart3 img {
     width: 150px;
     transition: 1s;
+}
+.main2 .mainpart3 hr {
+    width: 99%;
+    height: 2px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    text-align:center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: auto;
 }
 .mainpart4 {
     width: 22.5%;
@@ -254,6 +264,16 @@ hr {
     width: 150px;
     transition: 1s;
 }
+.main2 .mainpart4 hr {
+    width: 99%;
+    height: 2px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    text-align:center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: auto;
+}
 .mainpart5 {
     width: 22.5%;
     float: left;
@@ -267,6 +287,16 @@ hr {
     width: 150px;
     transition: 1s;
 }
+.main2 .mainpart5 hr {
+    width: 99%;
+    height: 2px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    text-align:center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: auto;
+}
 .mainpart6 {
     width: 22.5%;
     float: left;
@@ -279,6 +309,16 @@ hr {
 .mainpart6 img {
     width: 138px;
     transition: 1s;
+}
+.main2 .mainpart6 hr {
+    width: 99%;
+    height: 2px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    text-align:center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin: auto;
 }
 .main2 hr {
     width: 100%;
@@ -336,7 +376,7 @@ hr {
     color: #cccccc;
 }
 .mainpart7 hr {
-    width: 20%;
+    width: 15%;
     border-color:#ffff;
     text-align: center;
     margin: auto;
@@ -360,13 +400,18 @@ hr {
     letter-spacing: 3px;
     text-align: left;
     margin-bottom: 0px;
-    display:flex;
+    display: flex;
+    
 }
-.mainparth2 h2 hr {
-    width: 100px;
-    margin-top: 30px;
-    border-color: antiquewhite;
-    background-color: #808989;
+.mainpart8 .mainparth2 h2 hr {
+    width: 20%;
+    height: 2px;
+    border-color:#cccccc;
+    background-color:#cccccc;
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 30px
+   
 }
 .mainpart-p p {
     color:#cccccc;
