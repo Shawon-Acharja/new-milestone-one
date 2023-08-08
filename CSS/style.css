@@ -454,3 +454,74 @@ body {
     width: 500px;
     padding-left: 100px;
 }
+.main4 {
+    width: 100%;
+    height: 600px;
+    background-color: #0E8388;
+    padding: 20px 0px;
+}
+.mainpart10 {
+    width: 100%;
+    margin: 0px;
+}
+.mainpart10 h2 {
+    color: #cccccc;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.mainpart10 hr {
+    width: 15%;
+    text-align: center;
+    border-color: #cccccc;
+    margin-top: 0px;
+    border: 1px solid #cccccc;
+}
+.mainpart10 p {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.mainpart11 {
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+.mainpart11 .mainparth2 h2 hr {
+    width: 15%;
+    height: 2px;
+    border-color:#cccccc;
+    background-color:#cccccc;
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 30px
+}
+.mainpart11 .mainpart-p p {
+    color:#cccccc;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.mainpart11 button {
+    padding: 10px 30px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.mainpart11 button a {
+    text-decoration: none;color: #cccccc;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+.mainpart11 button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid #ffff;
+}
+.mainpart11 button a:hover {
+    color: orangered;
+}
